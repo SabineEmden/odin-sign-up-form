@@ -38,6 +38,8 @@ Project: Calculator is one of two projects in the [Intermediate HTML and CSS Cou
 
 ### Useful resources
 
+- [These font stacks will improve your site performance](https://www.youtube.com/watch?v=VOd6jfAImV4) by Kevin Powell - This video gives a good introduction to the System UI font stack.
+
 ## Author
 
 Find me online:

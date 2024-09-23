@@ -43,3 +43,20 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/* General styles and layout */
+@font-face {
+  font-family: "Norse";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(./assets/fonts/Norse-Bold.woff2) format("woff2");
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  font-family: "Norse";
+}
