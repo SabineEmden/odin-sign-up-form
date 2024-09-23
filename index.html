@@ -7,17 +7,77 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="image-attribution">
-      Photo by
-      <a
-        href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-        >Halie West</a
-      >
-      on
-      <a
-        href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-        >Unsplash</a
-      >
+    <div class="main">
+      <div class="container">
+        <div class="image-sidebar">
+          <div class="title">
+            <img
+              src="./assets/images/odin-lined.png"
+              alt="logo for The Odin Project"
+            />
+            <h1>Odin</h1>
+          </div>
+          <div class="image-attribution">
+            Photo by
+            <a
+              href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+              >Halie West</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+              >Unsplash</a
+            >
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="sales-pitch">
+            <p>
+              This is not a real online service! You know you need something
+              like this in your life to help you realize your deepest dreams.
+              Sign up <em>now</em> to get started.
+            </p>
+            <p>You <em>know you want to.</em></p>
+          </div>
+          <div class="sign-up">
+            <h2>Let's do this!</h2>
+            <form method="post" id="sign-up-form">
+              <ul class="form-controls">
+                <li>
+                  <label for="first-name">First Name</label>
+                  <input type="text" name="first-name" id="first-name" />
+                </li>
+                <li>
+                  <label for="last-name">Last Name</label>
+                  <input type="text" name="last-name" id="last-name" />
+                </li>
+                <li>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" />
+                </li>
+                <li>
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" name="phone" id="phone" />
+                </li>
+                <li>
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" />
+                </li>
+                <li>
+                  <label for="confirm">Confirm Password</label>
+                  <input type="password" name="confirm" id="confirm" />
+                </li>
+              </ul>
+            </form>
+          </div>
+          <div class="submit-form">
+            <input type="submit" value="Create Account" form="sign-up-form" />
+            <p class="login-link">
+              Already have an account? <a href="#">Log in</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
