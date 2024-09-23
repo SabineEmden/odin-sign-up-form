@@ -47,3 +47,5 @@ Find me online:
 ## Acknowledgements
 
 This project uses the font [Norse Bold](https://www.joelcarrouche.com/fonts/norse) by Joël Carrouché. The font is free for personal and commercial use and includes a complete runic alphabet with unicode support.
+
+This project uses Josh Comeau's [CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/).
