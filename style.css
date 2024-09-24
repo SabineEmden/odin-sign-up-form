@@ -55,17 +55,37 @@ h6 {
 
 :root {
   --grey900: rgb(11, 11, 11);
+  --grey700: rgb(43, 43, 43);
   --grey100: rgb(246, 246, 246);
   --grey200: rgb(222, 222, 222);
   --grey300: rgb(174, 174, 174);
-  --accent: rgb(89, 109, 72);
-  --focus: rgb(46, 89, 149);
-  --invalid: rgb(198, 60, 36);
+  --accent-color: rgb(89, 109, 72);
+  --focus-color: rgb(46, 89, 149);
+  --error-color: rgb(198, 60, 36);
 }
 
 body {
   font-family: system-ui, sans-serif;
+  /* 0.875 * 16px = 14px */
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--grey100);
+  background-color: var(--grey700);
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  padding: 24px;
 }
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Sign-up form component */
 
 h1 {
   font-family: "Norse";
