@@ -53,6 +53,16 @@ h6 {
   src: url(./assets/fonts/Norse-Bold.woff2) format("woff2");
 }
 
+:root {
+  --grey900: rgb(11, 11, 11);
+  --grey100: rgb(246, 246, 246);
+  --grey200: rgb(222, 222, 222);
+  --grey300: rgb(174, 174, 174);
+  --accent: rgb(89, 109, 72);
+  --focus: rgb(46, 89, 149);
+  --invalid: rgb(198, 60, 36);
+}
+
 body {
   font-family: system-ui, sans-serif;
 }
