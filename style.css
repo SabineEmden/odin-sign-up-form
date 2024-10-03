@@ -57,6 +57,7 @@ h6 {
   --grey900: rgb(11, 11, 11);
   --grey700: rgb(43, 43, 43);
   /* --grey-semi: rgb(43, 43, 43 / 70%); */
+  --white: rgb(255, 255, 255);
   --grey100: rgb(246, 246, 246);
   --grey200: rgb(222, 222, 222);
   --grey300: rgb(174, 174, 174);
@@ -84,7 +85,7 @@ main {
 
 /* Sign-up form component */
 .component {
-  background-color: var(--grey100);
+  background-color: var(--grey200);
   color: var(--grey900);
   display: flex;
   width: 45rem;
@@ -125,6 +126,44 @@ main {
 /* Main content */
 .main-content {
   flex-grow: 2;
+}
+
+.sign-up {
+  color: var();
+  background-color: var(--white);
+  padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.sign-up h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.form-controls {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-controls li {
+  margin-right: 3rem;
+  margin-top: 1.25rem;
+}
+
+.form-controls label {
+  display: block;
+  /* 0.75 * 16px = 12px */
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.form-controls input {
+  border: 1px solid var(--grey200);
+  border-radius: 2px;
+  width: 15rem;
 }
 
 /* Footer */
