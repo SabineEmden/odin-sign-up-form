@@ -62,8 +62,8 @@ h6 {
   --grey200: rgb(222, 222, 222);
   --grey300: rgb(174, 174, 174);
   --accent-color: rgb(89, 109, 72);
-  /* --focus-color: rgb(46, 89, 149);
-  --error-color: rgb(198, 60, 36); */
+  --blue: rgb(46, 89, 149);
+  --red: rgb(198, 60, 36);
 }
 
 body {
@@ -131,7 +131,7 @@ main {
 .sign-up {
   color: var();
   background-color: var(--white);
-  padding: 1.5rem 0 1.5rem 1.5rem;
+  padding: 1.5rem 0 2.5rem 2.5rem;
 }
 
 .sign-up h2 {
@@ -162,8 +162,19 @@ main {
 
 .form-controls input {
   border: 1px solid var(--grey200);
-  border-radius: 2px;
+  border-radius: 4px;
   width: 15rem;
+}
+
+.form-controls input:invalid {
+  background: var(--white);
+  border: 2px solid var(--red);
+}
+
+.form-controls input:focus {
+  border: 2px solid var(--blue);
+  box-shadow: 2px 2px 2px var(--grey300);
+  outline: none;
 }
 
 /* Footer */
