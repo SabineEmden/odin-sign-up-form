@@ -85,10 +85,10 @@ main {
 
 /* Sign-up form component */
 .component {
-  background-color: var(--grey200);
+  background-color: var(--grey100);
   color: var(--grey900);
   display: flex;
-  width: 45rem;
+  width: 40rem;
 }
 
 /* Image sidebar */
@@ -128,8 +128,18 @@ main {
   flex-grow: 2;
 }
 
+.sales-pitch {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 5rem 2.5rem 1.5rem 2.5rem;
+}
+
+.sales-pitch p {
+  max-width: 33rem;
+  margin-bottom: 1rem;
+}
+
 .sign-up {
-  color: var();
   background-color: var(--white);
   padding: 1.5rem 0 2.5rem 2.5rem;
 }
@@ -158,12 +168,13 @@ main {
   font-size: 0.75rem;
   font-weight: 500;
   text-transform: uppercase;
+  margin-bottom: 0.125rem;
 }
 
 .form-controls input {
   border: 1px solid var(--grey200);
   border-radius: 4px;
-  width: 15rem;
+  width: 14rem;
 }
 
 .form-controls input:invalid {
