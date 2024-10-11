@@ -128,6 +128,7 @@ main {
   flex-grow: 2;
 }
 
+/* Section: Sales pitch */
 .sales-pitch {
   font-size: 1.125rem;
   font-weight: 600;
@@ -139,9 +140,11 @@ main {
   margin-bottom: 1rem;
 }
 
+/* Section: Sign up */
 .sign-up {
   background-color: var(--white);
   padding: 1.5rem 0 2.5rem 2.5rem;
+  box-shadow: 0px 4px 4px var(--grey200);
 }
 
 .sign-up h2 {
@@ -184,8 +187,31 @@ main {
 
 .form-controls input:focus {
   border: 2px solid var(--blue);
-  box-shadow: 2px 2px 2px var(--grey300);
+  box-shadow: 2px 2px 2px var(--grey200);
   outline: none;
+}
+
+/* Section: Submit form */
+.submit-form {
+  /* 0.875 x 16px = 14px */
+  font-size: 0.875rem;
+  padding: 2.5rem 2.5rem 5rem;
+}
+
+.submit-form input {
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--accent-color);
+  padding: 0.75em 2.5em;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px var(--grey200);
+  margin-bottom: 1rem;
+}
+
+.submit-form a {
+  color: var(--accent-color);
+  font-weight: 700;
 }
 
 /* Footer */
