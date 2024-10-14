@@ -54,16 +54,16 @@ h6 {
 }
 
 :root {
-  --grey900: rgb(11, 11, 11);
-  --grey700: rgb(43, 43, 43);
-  /* --grey-semi: rgb(43, 43, 43 / 70%); */
+  --grey900: #0b0b0b;
+  --grey700: #2b2b2b;
+  --grey-semi: rgb(43 43 43 / 70%);
   --white: rgb(255, 255, 255);
-  --grey100: rgb(246, 246, 246);
-  --grey200: rgb(222, 222, 222);
-  --grey300: rgb(174, 174, 174);
-  --accent-color: rgb(89, 109, 72);
-  --blue: rgb(46, 89, 149);
-  --red: rgb(198, 60, 36);
+  --grey100: #f6f6f6;
+  --grey200: #dedede;
+  --grey300: #aeaeae;
+  --accent-color: #596d48;
+  --blue: #2e5995;
+  --red: #c63c24;
 }
 
 body {
@@ -76,7 +76,7 @@ body {
 }
 
 main {
-  flex-grow: 1;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,44 +88,56 @@ main {
   background-color: var(--grey100);
   color: var(--grey900);
   display: flex;
-  width: 40rem;
+  flex-flow: row wrap;
+  width: 60rem;
 }
 
 /* Image sidebar */
-/* .image-sidebar {
+.image-sidebar {
+  flex: 1;
   background-image: url(./assets/images/halie-west-25xggax4bSA-unsplash.jpg);
   display: flex;
   flex-direction: column;
-}
-
-.sidebar-top {
-  flex-grow: 1;
+  justify-content: space-between;
+  padding-top: 5rem;
 }
 
 .title {
   display: flex;
   background-color: var(--grey-semi);
-  opacity: 50%;
-  font-family: "Norse";
-  font-size: 30px;
-  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.55rem;
+  min-width: 15rem;
 }
 
 .title img {
-  height: 2em;
+  height: 6rem;
 }
 
 .title h1 {
+  font-family: "Norse";
+  font-size: 5rem;
   color: white;
+  line-height: 1;
+  padding-top: 0.2em;
 }
 
-.sidebar-bottom {
-  flex-grow: 2;
-} */
+.image-attribution {
+  color: var(--grey100);
+  font-size: 0.75rem; /* 0.75 * 16px = 12px */
+  text-align: center;
+  margin: 0.75rem;
+}
+
+.image-attribution a {
+  color: inherit;
+}
 
 /* Main content */
 .main-content {
-  flex-grow: 2;
+  flex: 2;
 }
 
 /* Section: Sales pitch */
