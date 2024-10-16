@@ -61,11 +61,11 @@ For my solution, I only used HTML and CSS features that were covered in the curr
 
 CSS grid is covered in the next section after this project. The layout in the design file for this project would be a good candidate for Layout First Design and CSS grid.
 
-Responsive design is not covered until much later in the curriculum. I tried to make my solution as responsive as possible with the tools I had available, using CSS flexbox but no media queries.
+Responsive design is not covered until much later in the curriculum. I made my solution as responsive as possible with the tools I had available, using CSS flexbox but no media queries.
 
 Web accessibility is also covered much later in the curriculum. I used what I have learned about accessibility while working on [Frontend Mentor challenges](https://www.frontendmentor.io/).
 
-Validating that the password fields match each other requires JavaScript. Using JavaScript for form validation is covered in a future lesson. My solution only uses client-site validation for the email address. It does not have any required form fields as none where indicated in the design file.
+Validating that the password fields match each other requires JavaScript. Using JavaScript for form validation is covered in a future lesson. My solution only uses client-site validation for the email address. It does not have any required form fields as none were indicated in the design file.
 
 The form has no backend and doesn't send the submitted data anywhere.
 
