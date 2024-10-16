@@ -65,7 +65,7 @@ Responsive design is not covered until much later in the curriculum. I tried to 
 
 Web accessibility is also covered much later in the curriculum. I used what I have learned about accessibility while working on [Frontend Mentor challenges](https://www.frontendmentor.io/).
 
-Validating that the password fields match each other requires JavaScript. Using JavaScript for form validation is covered in a future lesson. My solution contains only the client-site validation for the email address.
+Validating that the password fields match each other requires JavaScript. Using JavaScript for form validation is covered in a future lesson. My solution only uses client-site validation for the email address. It does not have any required form fields as none where indicated in the design file.
 
 The form has no backend and doesn't send the submitted data anywhere.
 
