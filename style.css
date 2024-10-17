@@ -192,12 +192,12 @@ main {
 
 .form-controls input:invalid {
   background: var(--white);
-  border: 2px solid red;
+  border: 1px solid red;
 }
 
 .form-controls input:focus {
-  border: 2px solid blue;
-  box-shadow: 3px 3px 3px var(--grey200);
+  border: 1px solid blue;
+  box-shadow: 4px 4px 4px var(--grey200);
   outline: none;
 }
 
