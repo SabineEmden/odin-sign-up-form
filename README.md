@@ -75,6 +75,8 @@ The form has no backend and doesn't send the submitted data anywhere.
 
 ## Author
 
+I'm an aspiring web developer and a former chemist. What I bring from chemistry to software development is a systematic approach to problem solving and the perseverance to not give up easily.
+
 - Personal Website - [Sabine Emden](https://www.sabineemden.com/)
 - Mastodon - [@sabineemden](https://social.tchncs.de/@sabineemden)
 
