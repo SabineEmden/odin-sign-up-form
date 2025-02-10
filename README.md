@@ -75,9 +75,8 @@ The form has no backend and doesn't send the submitted data anywhere.
 
 ## Author
 
-Find me online:
-
-- Mastodon - [@sabineemden](https://mastodon.online/@sabineemden)
+- Personal Website - [Sabine Emden](https://www.sabineemden.com/)
+- Mastodon - [@sabineemden](https://social.tchncs.de/@sabineemden)
 
 ## Acknowledgements
 
